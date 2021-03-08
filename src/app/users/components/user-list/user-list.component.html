@@ -1,0 +1,9 @@
+<div layout="column" class="full-height-container">
+  <h2 class="md-display-1">User list</h2>
+  <div layout="row" layout-wrap>
+    <div layout="column" layout-align="center center" class="user-tile" flex="25" flex-offset="5" ng-repeat="user in $ctrl.users" ng-click="$ctrl.goToPage(user.id)">
+      <img class="img-spacing" src="{{user.avatar}}">
+      <div>{{user.first_name}}</div>
+    </div>
+  </div>
+</div>

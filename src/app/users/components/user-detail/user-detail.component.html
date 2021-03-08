@@ -1,0 +1,14 @@
+<div layout="column" class="full-height-container">
+  <h2 class="md-display-1">User detail</h2>
+  <div class="user-tile" flex-offset="5">
+    <img src="{{$ctrl.user.avatar}}" class="img-spacing">
+    <div>Name: {{$ctrl.user.first_name}}</div>
+    <div>Last name: {{$ctrl.user.last_name}}</div>
+    <div>Email: {{$ctrl.user.email}}</div>
+  </div>
+  <div flex-offset="5" class="back-spacing">
+    <md-button id="back" class="md-raised" ng-click="$ctrl.goToPage()">
+      Back
+    </md-button>
+  </div>
+</div>

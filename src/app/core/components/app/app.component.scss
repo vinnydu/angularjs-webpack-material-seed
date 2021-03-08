@@ -1,0 +1,110 @@
+[ng-cloak] {
+    display: none;
+  }
+  
+  html, body {
+    font-family: 'Arial';
+    font-size: 14px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Primary content area */
+  
+  .content {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+  }
+  
+  md-button.menuBtn > md-icon {
+    fill: white;
+    width: 24px;
+    height: 24px;
+  }
+
+  root > div {
+    height: 100%;
+  }
+
+  .app-wrapper {
+    height: 100%;
+  }
+  
+  span.name {
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-left: 5px;
+  }
+  
+  .app-wrapper .custom-toolbar {
+    background-color: cornflowerblue ;
+    -webkit-print-color-adjust: exact ;
+  }
+  
+  .full-height-container {
+    height: 100%;
+  }
+
+  md-content.md-default-theme, md-content {
+    background-color: rgb(255,255,255);
+  }
+  
+  .default-text {
+    color: white;
+  }
+
+  .title-text {
+    font-size: 18px;
+    text-align: center;
+    word-wrap: break-word;
+    margin-left: 1%;
+    flex: 1 1 100%;
+    max-width: 35%;
+    max-height: 100%;
+    box-sizing: border-box;
+  }
+  
+  .copyright {
+    font-size: 14px;
+  }
+  
+  .user-info {
+    font-size: 12px;
+    text-align: right;
+    margin-left: 1%;
+    flex: 1 1 100%;
+    max-width: 33%;
+    max-height: 100%;
+    box-sizing: border-box;
+  }
+
+  .logo-container {
+    flex: 1 1 100%;
+    max-width: 33%;
+    max-height: 100%;
+    box-sizing: border-box;
+  }
+
+  .logo-img {
+    max-width: 220px;
+    width: 100%;
+  }
+
+  .error-message {
+    color:red;
+  }
+
+  .img-spacing {
+    margin: 8px 8px 8px 0;
+  }
+  
+  .user-tile {
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .back-spacing {
+    margin-top: 20px;
+  }
